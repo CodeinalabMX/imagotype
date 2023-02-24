@@ -1,0 +1,30 @@
+{
+  "name": "@codeinalabmx/imagotype",
+  "version": "0.1.0",
+  "description": "Imagotype",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "brunch": "brunch",
+    "vbump": "bump package.json package-lock.json README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeinalabMX/imagotype.git"
+  },
+  "keywords": [
+    "CSS",
+    "Imagotype"
+  ],
+  "author": "A59327424",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeinalabMX/imagotype/issues"
+  },
+  "homepage": "https://codeinalabmx.github.io/imagotype/"
+}
