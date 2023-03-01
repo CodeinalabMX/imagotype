@@ -8,10 +8,13 @@
     "test": "test"
   },
   "devDependencies": {
+    "html5-boilerplate": "^8.0.0",
+    "sass": "^1.58.3",
+    "version-bump-prompt": "^6.1.0"
   },
   "scripts": {
-    "brunch": "brunch",
-    "vbump": "bump package.json package-lock.json README.md"
+    "vbump": "bump package.json package-lock.json README.md",
+    "sass-build": "sass src/css/codeinalab.sass dist/css/codeinalab.min.css --style compressed"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/CodeinalabMX/imagotype/issues"
   },
-  "homepage": "https://codeinalabmx.github.io/imagotype/"
+  "homepage": "https://codeinalabmx.github.io/imagotype/",
+  "dependencies": {}
 }
